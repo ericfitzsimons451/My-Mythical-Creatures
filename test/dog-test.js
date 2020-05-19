@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
-var Dog = require('../dog');
-var Owner = require('../owner')
+var Dog = require('../Dog');
+var Owner = require('../Owner')
 
 describe('Dog', function() {
   it('should be a function', function() {
