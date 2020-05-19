@@ -86,4 +86,9 @@ describe('Dog', function() {
     dog1.chaseFrisbee()
     assert.equal(dog1.energyLevel, 0)
   })
+
+  it('should have some tricks ready for people to watch', () => {
+    var dog1 = new Dog('Charlie', 10)
+    assert.deepEqual(dog1.tricks, ['fetch', 'roll-over'])
+  })
 })

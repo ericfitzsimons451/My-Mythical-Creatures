@@ -6,6 +6,9 @@ class Dog {
     this.energyLevel = 1
     this.hungry = true
     this.bowlFull = false
+    this.tricks = ['fetch', 'roll-over']
+    this.trustInOwner = 50
+    this.offLeash = false
   }
 
   run() {
@@ -30,6 +33,7 @@ class Dog {
   chaseFrisbee() {
     this.energyLevel = 0
   }
+
 }
 
 module.exports = Dog;
